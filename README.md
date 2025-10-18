@@ -20,11 +20,36 @@ Projeto **Jogo21**, desenvolvido como prática de POO em Java no SENAC, simula o
 
 ## Estrutura do Projeto 📂
 
-- `Main.java` – Classe principal que executa o jogo  
-- `Jogador.java` – Representa o jogador humano  
-- `Computador.java` – Representa o computador  
-- `Carta.java` – Modela cada carta do baralho  
-- `Baralho.java` – Gerencia o baralho e distribuição de cartas  
+Jogo21/
+
+│
+
+├─ src/                
+
+│   ├─ model/           
+
+│   │   ├─ Carta.java
+
+│   │   ├─ Jogador.java
+
+│   │   └─ Computador.java
+
+│   ├─ util/          
+
+│   │   └─ Baralho.java
+
+│   └─ Main.java        <-- classe principal que roda o jogo
+
+│
+
+├─ imagens/             <-- imagens que você quer mostrar no README
+
+│   └─ jogo21-console.png
+
+│
+
+└─ README.md
+
 
 ## Como Executar 🚀
 
